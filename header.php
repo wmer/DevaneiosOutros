@@ -17,8 +17,8 @@ require "vendor/autoload.php";
     <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
     <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; <?php bloginfo('charset'); ?>" />
     <!--facebook-->
-    <meta property="fb:app_id" content="109929915831199" />
-    <meta property="fb:admins" content="100000151111200" />
+    <meta property="fb:app_id" content="" />
+    <meta property="fb:admins" content="" />
     <!--fim facebook-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="all" type="text/css" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
