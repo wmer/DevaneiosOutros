@@ -1,0 +1,60 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>DevaneiosOutros</Name>
+    <ProjectGuid>{ee11f821-d500-46ce-af75-282422d5d4d3}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="libs\index.html" />
+    <Compile Include="vendor\autoload.php" />
+    <Compile Include="archive.php" />
+    <Compile Include="author.php" />
+    <Compile Include="category.php" />
+    <Compile Include="composer.json" />
+    <Compile Include="composer.phar" />
+    <Compile Include="content.php" />
+    <Compile Include="footer.php" />
+    <Compile Include="functions.php" />
+    <Compile Include="header.php" />
+    <Compile Include="index.php" />
+    <Compile Include="page.php" />
+    <Compile Include="screenshot.png" />
+    <Compile Include="search.php" />
+    <Compile Include="searchform.php" />
+    <Compile Include="sidebar.php" />
+    <Compile Include="single.php" />
+    <Compile Include="style.css" />
+    <Compile Include="tag.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\Includes" />
+    <Folder Include="app\scripts" />
+    <Folder Include="app\templates" />
+    <Folder Include="app" />
+    <Folder Include="libs\css" />
+    <Folder Include="libs\font\material-design-icons" />
+    <Folder Include="libs\font\roboto" />
+    <Folder Include="libs\font" />
+    <Folder Include="libs\fonts\roboto" />
+    <Folder Include="libs\fonts" />
+    <Folder Include="libs\img\BG" />
+    <Folder Include="libs\img\Icones" />
+    <Folder Include="libs\img\Logos" />
+    <Folder Include="libs\img" />
+    <Folder Include="libs\js" />
+    <Folder Include="libs" />
+    <Folder Include="vendor\bin" />
+    <Folder Include="vendor\composer" />
+    <Folder Include="vendor" />
+  </ItemGroup>
+</Project>

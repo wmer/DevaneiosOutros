@@ -1,0 +1,526 @@
+/*Projeto DOC 17/04/2016*/
+/*
+Theme Name: DevaneiosOutros
+Theme URI: http://devaneioseoutrascoisas.xyz/
+Description: Tema especialmente criado para o site Devaneios e Outras Coisas
+Author: William Santana
+Author URI: https://www.facebook.com/william.silvadesantana
+Version: 1.0
+*/
+/*abstração de estilos*/
+.badge {
+    position: static !important;
+}
+/*header*/
+.headerDestaque {
+    height: 240px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.tagPost {
+    margin-left: 10px !important;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+.descricaoHeaderDestaque {
+    width: 100%;
+    height: 80px;
+    line-height: 1.1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7px !important;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 118px;
+    z-index: 0;
+}
+.titleHeaderDestaque {
+    width: 100%;
+    height: 36px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.titleHeaderDestaque a {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.titleHeaderDestaque a:hover {
+    color: #666;
+}
+.corpoHeaderDestaque {
+    width: 100%;
+    height: auto;
+    font-size: 0.9em;
+}
+.portaMenu {
+    box-shadow: 0 -8px 7px rgba(0, 0, 0, 0.6);
+    padding: 0 !important;
+}
+.titleBar {
+    font-size: 1.4em !important;
+    padding-left: 1% !important;
+}
+/*corpo site*/
+.corpoSite {
+    width: 90% !important;
+}
+/*ultimos posts*/
+.ultimosPosts {
+    width: 49%;
+    height: auto;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+.headerUltimosPosts {
+    width: 100%;
+    height: 240px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.descricaoUltimosPosts {
+    width: 100%;
+    height: 70px;
+    line-height: 1.1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7px !important;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 128px;
+    z-index: 0;
+}
+.titleUltimosPosts {
+    width: 100%;
+    height: 36px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.titleUltimosPosts a {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.titleUltimosPosts a:hover {
+    color: #666;
+}
+.nameAutor {
+    padding: 5px;
+    font-size: 1em;
+}
+.corpoUltimosPosts {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px;
+}
+.dataPost {
+    padding: 5px;
+    font-size: 1em;
+}
+/*posts mais acessados*/
+.PortapostsMaisVisitados {
+    width: 99%;
+    margin: 20px auto 0 !important;
+    background-color: #CCCCCC;
+}
+.titleSection {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: #666666;
+    clear: both;
+    margin-bottom: 10px;
+}
+.portIcone {
+    width: 29px;
+    height: 29px;
+    padding: 3px;
+    text-align: center;
+    background-color: #FF0000;
+    color: #ff6f00;
+}
+.postsMaisVisitados {
+    width: 24%;
+    height: auto;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.headerPostsMaisVisitados {
+    width: 100%;
+    height: 230px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.descricaoPostsMaisVisitados {
+    width: 100%;
+    height: 85px;
+    line-height: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7px !important;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 103px;
+    z-index: 0;
+}
+.titlePostsMaisVisitados {
+    width: 100%;
+    height: 51px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.titlePostsMaisVisitados a {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+.titlePostsMaisVisitados a:hover {
+    color: #666;
+}
+/*Manga posts*/
+.portGoogleAdsManga {
+    margin-top: 70px;
+}
+.titleSectionManga {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    clear: both;
+}
+.portMangaPosts {
+    width: 99%;
+    margin: 20px auto 0 !important;
+}
+.mangaPosts {
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+.imageMangaPosts {
+    width: 40%;
+    height: 178px;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: 1px solid #ccc;
+}
+.descricaoMangaPosts {
+    width: 100%;
+    height: 30px;
+    line-height: 1.1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7px !important;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 105px;
+    z-index: 0;
+}
+.corpoMangaPosts {
+    width: 60%;
+    height: 198px;
+    padding: 10px;
+    float: left;
+    line-height: 1.2em;
+}
+.corpoMangaPosts .badge {
+    position: static;
+}
+.titleMangaPosts {
+    width: 100%;
+    height: 37px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.titleMangaPosts a {
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.titleMangaPosts a:hover {
+    color: #ccc;
+}
+.resumoMangaPosts {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    text-align: justify;
+    padding-top: 10px;
+}
+/*ultimos poemas*/
+.portaUltimosPoemas {
+    width: 99%;
+    margin: 20px auto 0 !important;
+}
+.titleSectionUltimosPoemas {
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    clear: both;
+}
+.ultimosPoemas {
+    width: 32.333%;
+    height: auto;
+    float: left;
+    margin: 10px 0.5%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+.headerUltimosPoemas {
+    width: 100%;
+    height: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.descricaoUltimosPoemas {
+    width: 100%;
+    height: 62px;
+    line-height: 1.1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7px !important;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 46px;
+    z-index: 0;
+}
+.titleUltimosPoemas {
+    width: 100%;
+    height: 30px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.titleUltimosPoemas a {
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.titleUltimosPoemas a:hover {
+    color: #666;
+}
+/*pages e categorys*/
+.estrutPost {
+    width: 99%;
+    height: auto;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+.headerPost {
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.titleInfos {
+    width: 100%;
+    height: 95px;
+    line-height: 1.5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px !important;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 195px;
+    z-index: 0;
+}
+.titlePosts {
+    width: 100%;
+    height: 52px;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
+.titlePosts a {
+    color: #ffffff;
+    font-family: "Times New Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.titlePosts a:hover {
+    color: #666;
+}
+.infoPosts {
+    padding: 5px 10px 10px;
+    font-size: 0.9em;
+}
+.corpoPosts {
+    width: 100%;
+    height: auto;
+    font-size: 1.03em;
+    text-align: justify;
+    padding: 10px;
+}
+/*single*/
+.bottom_post {
+    padding: 10px;
+}
+.title_bottom_post {
+    width: 100%;
+    height: auto;
+    clear: both;
+    padding-left: 7%;
+    border-bottom: 2px solid #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.port_socis {
+    width: 100%;
+    height: auto;
+    clear: both;
+    table-layout: fixed;
+}
+.port_socis td {
+    padding: 1px !important;
+}
+.port_buttoms {
+    height: auto;
+    clear: both;
+    text-align: left;
+    vertical-align: top;
+}
+#like_fb {
+    width: 48%;
+    text-align: left;
+    vertical-align: top;
+}
+#tweet_port {
+    width: 17%;
+    text-align: left;
+    vertical-align: top;
+}
+#recomend_google {
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+}
+#comp_fb {
+    width: 20%;
+    text-align: right;
+    vertical-align: top;
+}
+/*sidebar*/
+.sidebarSite {
+    height: auto;
+}
+/*sidebar*/
+.sidebar-menu {
+    width: 20%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    top: 63px;
+    z-index: 0;
+    box-shadow: 2px 5px 4px 4px rgba(0,0,0,0.1);
+}
+.sidebar-menu a {
+    line-height: normal !important;
+    height: auto !important;
+    padding: 0 !important;
+}
+/*widgets*/
+.port_title_widget {
+    width: 90%;
+    height: 24px;
+    padding-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    clear: both;
+    vertical-align: middle;
+}
+.title_widget {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: normal !important;
+    margin: 0;
+    color: #EE6E73;
+}
+.widget_estrut {
+}
+.widget_estrut ul {
+    width: 100%;
+    height: auto !important;
+    margin: 0 auto;
+    padding: 0;
+}
+.widget_estrut ul li {
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5%;
+    list-style: none;
+    vertical-align: middle;
+}
+.widget_estrut ul li a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+.widget_estrut ul li:hover {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.5);
+    background-color: rgba(230,230,230,0.5);
+    color: #000000;
+    cursor: pointer;
+}
+.widget_estrut ul li a:hover {
+    text-decoration: underline;
+    color: #EE6E73;
+}
+/*segundo nivel*/
+.widget_estrut ul li ul {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+}
+.widget_estrut ul li ul li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5%;
+    list-style: none;
+    vertical-align: middle;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+.widget_estrut ul li ul li:hover {
+    padding-right: 15%;
+}
